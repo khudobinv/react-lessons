@@ -1,0 +1,13 @@
+.buttonClick {
+    background-color: #000;
+    width: 180px;
+    padding: 15px 10px;
+    font-size: 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s all ease-out;
+    color: #fff;
+    outline: none;
+}
+

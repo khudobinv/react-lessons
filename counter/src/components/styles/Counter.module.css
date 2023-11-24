@@ -1,0 +1,42 @@
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heading {
+    font-size: 38px;
+    color: #fff;
+  }
+  
+  .count {
+    font-size: 100px;
+    margin: 20px 0;
+    color: #fff;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .plusClick {
+    background-color: #59ab63;
+  }
+  
+  .minusClick {
+    background-color: #cd3a4f;
+  }
+  
+  .plusClick:hover {
+    background-color: #336038;
+    transition: .5s all ease-out;
+  }
+  
+  .minusClick:hover {
+    background-color: #74202c;
+    transition: .5s all ease-out;
+  }
